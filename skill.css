@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background : url("https://images.ctfassets.net/pdf29us7flmy/2z2UHcJrokSHHZh05Clg5O/ca19af0a45a29da83dfa73b732a77337/Writing-a-General-Purpose-Cover-Letter-Social.png") center/cover no-repeat;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 0.5em 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #1d3f72;
+}
+
+.skills-section {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: left;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.skills-text {
+    flex: 1;
+    text-align: left;
+}
+
+.skills-image {
+    flex: 1;
+}
+
+.skills-image img {
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+.skills-table th, .skills-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.skills-table th {
+    background-color: #f2f2f2;
+}

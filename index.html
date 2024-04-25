@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>my Website</title>
+</head>
+<body>
+    <header>
+       
+        <div class="profile">
+        <img class="profileimage" src="https://media-tir3-1.cdn.whatsapp.net/v/t61.24694-24/317665978_852419303117248_8313983781982533324_n.jpg?ccb=11-4&oh=01_AdThTcxBD01IpvCwGmQOz4kTNwPiny3NRR-q8pO583xalg&oe=65C7489E&_nc_sid=e6ed6c&_nc_cat=105" alt="Your Image">
+        </div>
+        <div class="welcome">
+            <h1>Welcome to My Website</h1>
+            <h5>This is a place where you can find information about me, explore my portfolio, and get in touch.</h5>
+        </div>
+        <h3 id="datetime"></h3>
+    </header>
+
+    <nav>
+        
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="testimonial.html">Testimonial</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="skills.html">Skills</a></li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <!-- The rest of your content remains unchanged -->
+        <section class="info-box">
+            <a class="sectionbox" href="about.html">
+                <h2>About Me</h2>
+            </a>
+        </section>
+    
+        <section class="info-box">
+            <a class="sectionbox" href="contact.html">
+                <h2>Contact</h2>
+            </a>
+        </section>
+        
+        <section class="info-box">
+            <a class="sectionbox" href="portfolio.html">
+                <h2>Portfolio</h2>
+            </a>
+        </section>
+    </div>
+
+    <div class="row">
+        <section class="info-box">
+            <a class="sectionbox" href="skills.html">
+                <h2>Skills</h2>
+            </a>
+        </section>
+
+        <section class="info-box">
+            <a class="sectionbox" href="resume.html">
+                <h2>Resume</h2>
+            </a>
+        </section>
+        
+        <section class="info-box">
+            <a class="sectionbox" href="testimonial.html">
+                <h2>Testimonial</h2>
+            </a>
+        </section>
+    </div>
+</body>
+
+<script>
+    const element = document.getElementById("datetime");
+setInterval(function() {
+    const date = new Date();
+    const options = {
+        timeZone: 'Asia/Kolkata',
+    };
+    let d = date.toLocaleString('en-US', options);
+    element.innerHTML = d;
+}, 1000);
+
+</script>
+</html>

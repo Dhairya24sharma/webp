@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjItbWluZC0xNl8xLmpwZw.jpg") center/cover no-repeat;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center; /* Align text to the left */
+    display: flex; /* Use flexbox for layout */
+    align-items: center;
+    justify-content: center;
+    }
+
+.profile{
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    margin-left: 30px;
+    padding: 0.5vh;
+
+}
+
+.profileimage{
+    height: 8em;
+    width: 8em;
+}
+
+.welcome{
+    position: absolute;
+}
+
+header img {
+    border-radius: 50%; /* Make the image circular */
+    width: 50px; /* Adjust the width of the image */
+    height: 50px; /* Adjust the height of the image */
+    margin-right: 15px; /* Add some margin to the right of the image */
+}
+
+nav {
+    background-color: #333;
+    padding: 0.5em 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.info-box {
+    flex: 0 0 30%;
+    background box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sectionbox {
+    color: #d152a4;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.info-box:hover {
+    cursor: pointer;
+    box-shadow: 1px 2px 20px rgb(93, 93, 93);
+}
+
+h3{
+    margin-right: 5%;
+}

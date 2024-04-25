@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://jessicaroots.com/wp-content/uploads/2018/03/portfolio-background-header-53082_1080x675.jpg") center/cover no-repeat;
+}
+
+header {
+    background-color: #12b8e6;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #007BFF;
+    padding: 0.5em 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    color: #1dfe5d;
+    text-decoration: none;
+}
+
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul.skills-list {
+    padding: 0;
+}
+
+ul.skills-list li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
